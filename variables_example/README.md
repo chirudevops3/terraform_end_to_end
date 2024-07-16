@@ -38,9 +38,10 @@ String Interpolation
 2. Complex types **a**. Collection types i. list ii. map iii. set b. Structural types i. tuple object
 
 ### type number
-
+```
 variable "web_port" {
     description = "Web Port"
     default = 80
     type = number
 }
+```
